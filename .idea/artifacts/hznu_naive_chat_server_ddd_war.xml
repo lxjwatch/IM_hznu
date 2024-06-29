@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hznu-naive-chat-server-ddd:war">
+    <output-path>$PROJECT_DIR$/hznu-naive-chat-server/hznu-naive-chat-server-ddd/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hznu-naive-chat-server-ddd</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="itstack-naive-chat-server.war">
+      <element id="artifact" artifact-name="hznu-naive-chat-server-ddd:war exploded" />
+    </root>
+  </artifact>
+</component>
